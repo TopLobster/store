@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+html, body {
+  height: 100%;
+  width: 100%;
+  color: #333333;
+  font-family: Nunito, sans-serif;
+  font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 800;
+}
+
+nav i {
+  font-size: 1.5em;
+}
+
+#slides {
+  overflow: hidden;
+}
+
+#slides .carousel-inner img {
+  width: 100%;
+}
+
+#slides .carousel-inner .carousel-caption {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-shadow: 0 0 5px black;
+}
+
+.sticky-modifier {
+  position: absolute;
+  top: 0;
+}
+
+.sticky-modifier.fixed-position {
+  position: fixed;
+  top: 3rem;
+}
+
+#main {
+  min-height: 1000px;
+}
+
+#main .sidebar-placeholder {
+  height: 100%;
+  position: relative;
+}
+/*# sourceMappingURL=styles.css.map */

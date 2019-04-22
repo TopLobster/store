@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href='css/styles.css'>
+  <script src="js/scripts.js" defer></script>
+  <title>Store</title>
+</head>
+
+<body class="bg-light">
+  <div id="slides" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#slides" data-slide-to="0" class="active"></li>
+      <li data-target="#slides" data-slide-to="1"></li>
+      <li data-target="#slides" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://picsum.photos/id/16/1000/400" alt="bg1">
+        <div class="carousel-caption">
+          <h1 class="display-2">Buy This</h1>
+          <h3>On Sale Now</h3>
+          <button type="button" class="btn btn-outline-dark btn-lg">Link Here</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/id/99/1000/400" alt="bg2">
+        <div class="carousel-caption">
+          <h3>Another thing just for you</h3>
+          <button type="button" class="btn btn-outline-primary btn-lg">Link Here</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/id/22/1000/400" alt="bg3">
+        <div class="carousel-caption">
+          <h1 class="display-3">Do It</h1>
+          <button type="button" class="btn btn-outline-light btn-lg">Link Here</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-xl navbar-dark bg-dark sticky-top">
+    <a href="#" class="navbar-brand"><i class="fas fa-laptop-code"></i></a>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarCollapseMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapseMenu">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Settings</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Logout</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid"">
+    <div class="row">
+      <div class="col-sm-3 px-1 bg-light br-1">
+        <div class="py-2 sticky-top flex-grow-1">
+          <div class="nav flex-sm-column pt-5">
+            <li>yo</li>
+          </div>
+        </div>
+      </div>
+      <div class="col bg-white" id="main" style="min-height:200vh;">
+        <form class="form-inline my-2 my-lg-0 py-5 sticky-top">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        
+        <div class="spinner-border mx-auto" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-light">
+    <div class="container-fluid py-5">
+      <div class="row text-center mx-auto justify-content-center">
+        <div class="col-md-3">
+          <h4><i class="fas fa-laptop-code"></i> Contact</h4>
+          <hr class="light">
+          <p>email@email.com</p>
+          <p>(456) 789-1011</p>
+          <p>123 Dreary Lane</p>
+          <p>Attawa, TX</p>
+        </div>
+        <div class="col-md-3">
+          <h4>Hours</h4>
+          <hr class="light">
+          <p>M-F: 8A-8P</p>
+          <p>Sat: 9A-7P</p>
+          <p>Sun: 12P-5P</p>
+        </div>
+        <div class="col-md-3">
+          <h4>Locations</h4>
+          <hr class="light">
+          <p>???</p>
+          <p>Yeah</p>
+          <p></p>
+        </div>
+      </div>
+      <div class="row text-center justify-content-center">
+        <div class="col-9">
+          <hr class="light">
+          <p>&copy; no one</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Optional JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
