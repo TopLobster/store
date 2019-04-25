@@ -32,11 +32,15 @@ nav i {
 
 .sticky-modifier {
     position: absolute;
-    top: 0;
+    top:0;left:0;right:0;
+    z-index: 10000;
     &.fixed-position {
         position: fixed;
-        top: 3rem;
     }
+}
+
+.pt-8 {
+    padding-top: 4rem;
 }
 
 #main {
@@ -46,7 +50,3 @@ nav i {
         position: relative;
     }
 }
-// .img-fluid {
-//     position: absolute;
-//     top: 0;
-// }

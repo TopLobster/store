@@ -46,41 +46,157 @@
       </div>
     </div>
   </div>
-  <nav class="navbar navbar-expand-xl navbar-dark bg-dark sticky-top">
-    <a href="#" class="navbar-brand"><i class="fas fa-laptop-code"></i></a>
-    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarCollapseMenu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <div class="container-fluid" style="position: relative">
+    <nav id="top-nav" class="navbar navbar-expand-xl navbar-dark bg-dark sticky-modifier">
+      <a href="#" class="navbar-brand"><i class="fas fa-laptop-code"></i></a>
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarCollapseMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarCollapseMenu">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Settings</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Logout</a></li>
+        </ul>
+      </div>
+    </nav>
 
-    <div class="collapse navbar-collapse" id="navbarCollapseMenu">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Settings</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Logout</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <div class="container-fluid"">
     <div class="row">
-      <div class="col-sm-3 px-1 bg-light br-1">
-        <div class="py-2 sticky-top flex-grow-1">
-          <div class="nav flex-sm-column pt-5">
-            <li>yo</li>
+      <div id="sidebar"class="col-12 col-md-3 bg-light br-1">
+        <div class="sticky-top flex-grow-1">
+          <div class="nav flex-md-column pt-8">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="check1">
+              <label class="form-check-label" for="check1">
+                Option1
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="check2">
+              <label class="form-check-label" for="check2">
+                Option2
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="check3">
+              <label class="form-check-label" for="check3">
+                Option3
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="check4">
+              <label class="form-check-label" for="check4">
+                Option4
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="check5">
+              <label class="form-check-label" for="check5">
+                Option5
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="check6">
+              <label class="form-check-label" for="check6">
+                Option6
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="check7">
+              <label class="form-check-label" for="check7">
+                Option7
+              </label>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col bg-white" id="main" style="min-height:200vh;">
-        <form class="form-inline my-2 my-lg-0 py-5 sticky-top">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        </form>
-        
+      <div class="col-12 col-md-9 bg-white" id="main" style="min-height:200vh;">
+        <div class="pt-8 sticky-top">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        </div>
+        <main class="container-fluid pt-3 pb-3">
+          <div class="store-item col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 p-3 bg-light d-inline-block">
+            <img src="https://picsum.photos/id/1/200" alt="" class="image-fluid">
+            <p class="p-2">Description</p>
+          </div>
+          <div class="store-item col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 p-3 bg-light d-inline-block">
+              <img src="https://picsum.photos/id/1/200" alt="" class="image-fluid">
+              <p class="p-2">Description</p>
+            </div>
+            <div class="store-item col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 p-3 bg-light d-inline-block">
+                <img src="https://picsum.photos/id/1/200" alt="" class="image-fluid">
+                <p class="p-2">Description</p>
+              </div>
+              <div class="store-item col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 p-3 bg-light d-inline-block">
+                  <img src="https://picsum.photos/id/1/200" alt="" class="image-fluid">
+                  <p class="p-2">Description</p>
+                </div>
+                <div class="store-item col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 p-3 bg-light d-inline-block">
+                    <img src="https://picsum.photos/id/1/200" alt="" class="image-fluid">
+                    <p class="p-2">Description</p>
+                  </div>
+                  <div class="store-item col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 p-3 bg-light d-inline-block">
+                      <img src="https://picsum.photos/id/1/200" alt="" class="image-fluid">
+                      <p class="p-2">Description</p>
+                    </div>
+                    <div class="store-item col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 p-3 bg-light d-inline-block">
+                        <img src="https://picsum.photos/id/1/200" alt="" class="image-fluid">
+                        <p class="p-2">Description</p>
+                      </div>
+                      <div class="store-item col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 p-3 bg-light d-inline-block">
+                          <img src="https://picsum.photos/id/1/200" alt="" class="image-fluid">
+                          <p class="p-2">Description</p>
+                        </div>
+                        <div class="store-item col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 p-3 bg-light d-inline-block">
+                            <img src="https://picsum.photos/id/1/200" alt="" class="image-fluid">
+                            <p class="p-2">Description</p>
+                          </div>
+                          <div class="store-item col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 p-3 bg-light d-inline-block">
+                              <img src="https://picsum.photos/id/1/200" alt="" class="image-fluid">
+                              <p class="p-2">Description</p>
+                            </div>
+                            <div class="store-item col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 p-3 bg-light d-inline-block">
+                                <img src="https://picsum.photos/id/1/200" alt="" class="image-fluid">
+                                <p class="p-2">Description</p>
+                              </div>
+                              <div class="store-item col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 p-3 bg-light d-inline-block">
+                                  <img src="https://picsum.photos/id/1/200" alt="" class="image-fluid">
+                                  <p class="p-2">Description</p>
+                                </div>
+                                <div class="store-item col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 p-3 bg-light d-inline-block">
+                                    <img src="https://picsum.photos/id/1/200" alt="" class="image-fluid">
+                                    <p class="p-2">Description</p>
+                                  </div>
+                                  <div class="store-item col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 p-3 bg-light d-inline-block">
+                                      <img src="https://picsum.photos/id/1/200" alt="" class="image-fluid">
+                                      <p class="p-2">Description</p>
+                                    </div>
+                                    <div class="store-item col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 p-3 bg-light d-inline-block">
+                                        <img src="https://picsum.photos/id/1/200" alt="" class="image-fluid">
+                                        <p class="p-2">Description</p>
+                                      </div>
+                                      <div class="store-item col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 p-3 bg-light d-inline-block">
+                                          <img src="https://picsum.photos/id/1/200" alt="" class="image-fluid">
+                                          <p class="p-2">Description</p>
+                                        </div>
+                                        <div class="store-item col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 p-3 bg-light d-inline-block">
+                                            <img src="https://picsum.photos/id/1/200" alt="" class="image-fluid">
+                                            <p class="p-2">Description</p>
+                                          </div>
+                                          <div class="store-item col-6 col-sm-5 col-md-4 col-lg-3 col-xl-2 p-3 bg-light d-inline-block">
+                                              <img src="https://picsum.photos/id/1/200" alt="" class="image-fluid">
+                                              <p class="p-2">Description</p>
+                                            </div>
+                                            
+        </main>
         <div class="spinner-border mx-auto" role="status">
           <span class="sr-only">Loading...</span>
         </div>
       </div>
     </div>
+    
   </div>
 
   <footer class="bg-dark text-light">
